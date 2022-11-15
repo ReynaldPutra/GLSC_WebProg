@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\NewsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,11 +28,7 @@ Route::get('/mainContent', function () {
 });
 
 
-Route::get('/card', function () {
-    $Name = ['VALORANT', 'COVID-19', 'JAKARTA' , 'INDONESIA', 'BITCOIN','RUSH HOUR','CONJURING','GENSHIN'];
-    $Img = ['img/valorant.jpg', 'img/covid.jpg','img/jakarta.jpg','img/indonesia.jpg', 'img/bitcoin.jpg','img/rushHour.jpg','img/conjuring.jpg','img/genshin.jpg'];
-    return view('card',array('title' => $Name,'img'=> $Img));
-});
+Route::get('/card', [NewsController::class,'index']);
 
 
 

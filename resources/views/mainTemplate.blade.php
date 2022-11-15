@@ -14,15 +14,15 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand ms-2" href="#">
-                <img src="{{ asset('img/PersonalLogo.png') }}" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+            <a class="navbar-brand ms-5" href="/mainContent">
+                <img src="{{ asset('img/PersonalLogo.png') }}" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
             </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-          <ul class="navbar-nav ms-auto me-3" >
-            <li class="nav-item">
+          <ul class="navbar-nav ms-4 me-5" >
+            <li class="nav-item me-3">
               <a class="nav-link" aria-current="page" href="/mainContent">HOME</a>
             </li>
             <li class="nav-item">

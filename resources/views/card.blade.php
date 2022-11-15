@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="m-5" style="color: white">
-    <h1>TRENDING NEWS</h1>
+    <p style="font-size: 60px; color:#e687aa">TRENDING NEWS</p>
 </div>
 
 <section class="d-flex flex-wrap justify-content-center">
